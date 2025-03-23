@@ -8,6 +8,9 @@ export default defineConfig({
     federation({
       name: "mlrun-ui",
       filename: "remoteEntry.js",
+      remotes: {
+        nuclio: "http://localhost:5003/assets/remoteEntry.js",
+      },
       exposes: {
         "./RemoteApp": "./src/index",
         "./App": "./src/App.jsx",

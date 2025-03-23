@@ -1,4 +1,5 @@
 import React from "react";
+import Nuclio from "nuclio/App";
 
 const App = () => {
     const data = {
@@ -17,6 +18,7 @@ const App = () => {
             <button onClick={storeAndSendData} style={{ marginTop: 20, padding: "10px 20px" }}>
                 Store and Send Data to IGZ4
             </button>
+            <Nuclio/>
         </div>
     );
 };

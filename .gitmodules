@@ -1,0 +1,4 @@
+[submodule "lib/nuclio-2"]
+	path = lib/nuclio-2
+	url = git@github.com:pinis-gini-apps/nuclio.git
+	branch = main
